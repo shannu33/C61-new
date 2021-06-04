@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> My Favortie Hobby </title>
+    <script src="main.js"> </script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <ul class="menu">
+        <li class="links"><a href="#welcome">HOME</a></li>
+        <li class="links"><a href="#videos">VIDEOS</a></li>
+        <li class="links"><a href="#work">ABT-CODE</a></li>
+        <li class="links"><a href="#writings">WORK</a></li>
+        <li class="links"><a href="#contact">CONTACT</a></li>
+    </ul>
+
+    <section id="welcome">
+        <div class="parallax-inner">
+            <img id="name" src="data:image/png;base64,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">
+            <h1>My Favorite Hobby <br><span id="name>"> is Coding</span></h1>
+        </div>
+    </section>
+    <section id="bio">
+        <h1>Coding</h1>
+        <div class="line"></div>
+        <p>The sheer joy of making things. Programming is fundamentally about creating solutions to problems. At the end of the... The pleasure of making things that are useful to other people. One of most satisfying aspects of the job as a... The fascination of fashioning complex puzzle-like objects of interlocking moving parts, and watching them work in... The joy of always learning, which springs from the nonrepeating nature of the task. While constructing the program</p>
+    </section>
+
+
+
+
+
+
+
+
+    <section id="videos">
+        <h1>Videos</h1>
+        <div class="line"></div> <br>
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/j-3eArinB7E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+
+    <section id="work">
+        <h1>WORK</h1>
+        <div class="line"></div>
+        <iframe width="900" height="1000" src="https://en.wikipedia.org/wiki/Code" frameborder="0"></iframe>
+    </section>
+
+
+    <section id="writings">
+        <h1>MY CREATION</h1>
+        <section id="app">
+            <h1>Apps</h1> <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/AmAIOlod-80aGvVFcBdbfjebPGUlVaYjI8ECZcJtZks/embed"></iframe> <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/U9AQsuLnTixFr5caYUBM9qmkuaPCvmuWblFMcUPrC14/embed"></iframe>
+        </section>
+
+        <section id="Chatbot">
+            <h1>ChatBot</h1>
+            <div class="line"></div> <iframe allow="microphone;" width="350px" height="500px" src="https://console.dialogflow.com/api-client/demo/embedded/82e2fc96-1906-4bd8-a9d2-84a17f04ea54"> </iframe>
+        </section>
+
+    </section>
+
+    <p> My teacher is the one who inspiered me to do coding </p>
+
+    <section id="contact">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15078.353856082635!2d72.8906491!3d19.1257017!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xacf72f56793d190a!2sWHITEHAT%20EDUCATION%20TECHNOLOGY%20PVT%20LTD!5e0!3m2!1sen!2sin!4v1573468987088!5m2!1sen!2sin" height="450" frameborder="0" allowfullscreen=""></iframe>
+         <div class="contact_1">
+
+            <a href="mailto:pratikshagajraj@gmail.com?Subject=Hello" id="myname">
+                
+                <i class="fa fa-envelope">&nbsp;<span id="myname">stellamary@gmail.com</span></i>
+                
+             </a> 
+            
+            <br>
+            <br>
+ 
+            <a href="#" id="myname"> 
+                
+                <i class="fa fa-instagram" >&nbsp;<span >stellamary1234</span></i>
+             </a> 
+ 
+         </div>
+         
+     </section>
+</body>
+
+
+</html>
